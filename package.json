@@ -1,22 +1,27 @@
 {
-    "name": "countries-in-the-world",
-    "description": "List of world countries in JSON",
-    "version": "1.0.0",
-    "main": "index.js",
-    "keywords": [
-        "countries",
-        "world",
-        "json"
-    ],
-    "bugs": {
-        "web": "https://github.com/mledoze/countries/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mledoze/countries.git"
-    },
-    "licenses": [{
-        "name": "Open Database License",
-        "url": "http://opendatacommons.org/licenses/odbl/1.0/"
-    }]
+  "name": "countries-in-the-world",
+  "description": "List of world countries in JSON",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "countries",
+    "world",
+    "json"
+  ],
+  "bugs": {
+    "web": "https://github.com/mledoze/countries/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mledoze/countries.git"
+  },
+  "licenses": [
+    {
+      "name": "Open Database License",
+      "url": "http://opendatacommons.org/licenses/odbl/1.0/"
+    }
+  ],
+  "devDependencies": {
+    "lodash.find": "^2.4.1"
+  }
 }
