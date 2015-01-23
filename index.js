@@ -11,6 +11,11 @@ countries.getCountryByCode = function (countryCode) {
 
 countries.getCountryByName = function (name) {
   var country = _find(data, function(co) { return co.name.common === name })
+  return country;
+}
+
+countries.getNameById = function (countryCode) {
+  var country = _find(data, function(co) { return co.cca2 === countryCode })
   return country.name.common;
 }
 
