@@ -5,12 +5,12 @@ var countries = {}
 
 
 countries.getCountryByCode = function (countryCode) {
-  var country = _find(countries, function(co) { return co.cca2 === countryCode })
+  var country = _find(data, function(co) { return co.cca2 === countryCode })
   return country;
 }
 
 countries.getCountryByName = function (name) {
-  var country = _find(countries, function(co) { return co.name.common === name })
+  var country = _find(data, function(co) { return co.name.common === name })
   return country.name.common;
 }
 
