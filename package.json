@@ -9,11 +9,11 @@
     "json"
   ],
   "bugs": {
-    "web": "https://github.com/mledoze/countries/issues"
+    "url": "https://github.com/bakat/countries-in-the-world/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mledoze/countries.git"
+    "url": "https://github.com/bakat/countries-in-the-world.git"
   },
   "licenses": [
     {
