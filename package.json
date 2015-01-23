@@ -1,7 +1,7 @@
 {
   "name": "countries-in-the-world",
   "description": "List of world countries in JSON",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "keywords": [
     "countries",
@@ -21,7 +21,7 @@
       "url": "http://opendatacommons.org/licenses/odbl/1.0/"
     }
   ],
-  "devDependencies": {
+  "dependencies": {
     "lodash.find": "^2.4.1"
   }
 }
