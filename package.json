@@ -1,7 +1,7 @@
 {
   "name": "countries-in-the-world",
   "description": "List of world countries in JSON",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "keywords": [
     "countries",
